@@ -18,7 +18,7 @@ namespace Vaxplan
 
         private static Testcase ValueFactory(string id)
         {
-            var reader = new JsonResourceReader();
+            var reader = new JsonResourceReader(typeof(Testcase));
             return reader.Read<Testcase[]>("testcases").FirstOrDefault(x => x.Id == id);
         }
     }

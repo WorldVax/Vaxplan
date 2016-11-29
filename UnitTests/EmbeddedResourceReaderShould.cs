@@ -21,9 +21,7 @@ namespace Vaxplan.UnitTests
         [TestMethod]
         public void ReadEmbeddedJsonResourceAsObject()
         {
-            var reader = new JsonResourceReader(typeof(Aclass))
-            {
-            };
+            var reader = new JsonResourceReader(typeof(Aclass));
             var data = reader.Read<Aclass>(JSON_RESOURCE_OBJECT);
             Assert.IsTrue(data.key.StartsWith("one, two"));
         }
@@ -31,9 +29,7 @@ namespace Vaxplan.UnitTests
         [TestMethod]
         public void ReadEmbeddedJsonResourceAsList()
         {
-            var reader = new JsonResourceReader(typeof(Aclass))
-            {
-            };
+            var reader = new JsonResourceReader(typeof(Aclass));
             var data = reader.Read<Aclass[]>(JSON_RESOURCE_ARRAY);
             Assert.IsTrue(data.Length > 1);
             var item = data[0];
