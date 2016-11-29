@@ -64,10 +64,6 @@
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj">
-      <Project>{460f4dc8-6e81-49db-a153-da5f3bf4786b}</Project>
-      <Name>Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Date\Date.csproj">
       <Project>{27d19638-69d0-47d4-845e-0cae7536ff30}</Project>
       <Name>Date</Name>

@@ -31,7 +31,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+      <HintPath>..\packages\Vaxplan.SupportingData.0.1.5\lib\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Vaxplan.Common.0.1.2\lib\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NuGet.Packager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -46,8 +50,12 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Vaxplan.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Vaxplan.SupportingData.0.1.5\lib\Vaxplan.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Vaxplan.Refdata, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vaxplan.Refdata.0.1.1\lib\Vaxplan.Refdata.dll</HintPath>
+      <HintPath>..\packages\Vaxplan.SupportingData.0.1.5\lib\Vaxplan.Refdata.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Vaxplan.Refdata.CDC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
