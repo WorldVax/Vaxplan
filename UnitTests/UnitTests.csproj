@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -52,14 +53,47 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Aclass.cs" />
+    <Compile Include="AdministeredDoseShould.cs" />
+    <Compile Include="CaseLibraryShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Date.cs" />
+    <Compile Include="DateShould.cs" />
+    <Compile Include="RefdataShould.cs" />
+    <Compile Include="EmbeddedResourceReader.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{21b38d12-92b3-4f52-80b6-3c2655c8b285}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{e05678ae-025e-4242-a0f3-637d524a6860}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Date\Date.csproj">
       <Project>{27d19638-69d0-47d4-845e-0cae7536ff30}</Project>
       <Name>Date</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DoseHistory\DoseHistory.csproj">
+      <Project>{7cd40dfb-c1c7-468e-bd59-452bfea32c42}</Project>
+      <Name>DoseHistory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{df395d56-6bb1-40ef-8e40-4d6e9999cb3e}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refdata\Refdata.csproj">
+      <Project>{9d2a56a8-6260-44ba-ac87-44c2aa692ac5}</Project>
+      <Name>Refdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Testcases\Testcases.csproj">
+      <Project>{b7b31ca0-2af7-441a-8968-02cbd12b6d4e}</Project>
+      <Name>Testcases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="array.json" />
+    <None Include="object.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

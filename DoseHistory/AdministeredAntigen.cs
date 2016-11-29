@@ -1,4 +1,4 @@
-﻿namespace DoseHistory
+﻿namespace Vaxplan.DoseHistory
 {
     public class AdministeredAntigen
     {

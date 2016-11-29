@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CD40DFB-C1C7-468E-BD59-452BFEA32C42}</ProjectGuid>
+    <ProjectGuid>{21B38D12-92B3-4F52-80B6-3C2655C8B285}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vaxplan.DoseHistory</RootNamespace>
-    <AssemblyName>Vaxplan.DoseHistory</AssemblyName>
+    <RootNamespace>Vaxplan.Common</RootNamespace>
+    <AssemblyName>Vaxplan.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,8 +30,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,21 +45,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministeredAntigen.cs" />
-    <Compile Include="AdministeredAntigenFactory.cs" />
+    <Compile Include="Collections\BaseDictionary.cs" />
+    <Compile Include="Collections\LazyDictionary.cs" />
+    <Compile Include="IO\IEmbeddedResourceReader.cs" />
+    <Compile Include="IO\EmbeddedResourceReader.cs" />
+    <Compile Include="IO\JsonResourceReader.cs" />
+    <Compile Include="IO\XmlResourceReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{df395d56-6bb1-40ef-8e40-4d6e9999cb3e}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Refdata\Refdata.csproj">
-      <Project>{9d2a56a8-6260-44ba-ac87-44c2aa692ac5}</Project>
-      <Name>Refdata</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CD40DFB-C1C7-468E-BD59-452BFEA32C42}</ProjectGuid>
+    <ProjectGuid>{B7B31CA0-2AF7-441A-8968-02CBD12B6D4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vaxplan.DoseHistory</RootNamespace>
-    <AssemblyName>Vaxplan.DoseHistory</AssemblyName>
+    <RootNamespace>Vaxplan</RootNamespace>
+    <AssemblyName>Vaxplan.Testcases</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,8 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,19 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministeredAntigen.cs" />
-    <Compile Include="AdministeredAntigenFactory.cs" />
+    <Compile Include="DataTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CaseLibrary.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{df395d56-6bb1-40ef-8e40-4d6e9999cb3e}</Project>
-      <Name>Model</Name>
+    <EmbeddedResource Include="supporting_data\testcases.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{21b38d12-92b3-4f52-80b6-3c2655c8b285}</Project>
+      <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Refdata\Refdata.csproj">
       <Project>{9d2a56a8-6260-44ba-ac87-44c2aa692ac5}</Project>
       <Name>Refdata</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

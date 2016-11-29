@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Vaxplan;
-using Vaxplan.SupportingData;
-using Vaxplan.Testcases;
+﻿using System.Collections.Generic;
+using Vaxplan.Model;
 
-namespace DoseHistory
+namespace Vaxplan.DoseHistory
 {
     public class AdministeredAntigenFactory
     {
-        public IEnumerable<AdministeredAntigen> Prepare(IEnumerable<SeriesDataContract> administered)
+        public static IEnumerable<AdministeredAntigen> Prepare(IEnumerable<Series> administered)
         {
             foreach (var d in administered)
             {
