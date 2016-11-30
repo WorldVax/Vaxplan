@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using Vaxplan.Model;
 
-namespace Vaxplan.DoseHistory
+namespace Vaxplan.Services
 {
     public class AdministeredAntigenFactory
     {
-        public static IEnumerable<AdministeredAntigen> Prepare(IEnumerable<Series> administered)
+        public static IEnumerable<AdministeredAntigen> Prepare(IEnumerable<Dose> administered)
         {
             foreach (var d in administered)
             {

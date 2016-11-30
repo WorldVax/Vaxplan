@@ -58,5 +58,12 @@ namespace Vaxplan.UnitTests
             var endDate = startDt.Adjust(intervals);
             Assert.AreEqual(target, endDate);
         }
+
+        [TestMethod]
+        public void ParseTestcaseDateFormat() {
+            const string testDate = "2013-01-01T00:00:00";
+            var dt = DateTime.Parse(testDate);
+            Assert.AreEqual(2013, dt.Year);
+        }
     }
 }

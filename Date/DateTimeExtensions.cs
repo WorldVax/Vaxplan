@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Vaxplan.Date
 {
-   public static class DateTimeExtensions
+    public static class DateTimeExtensions
     {
-                public static DateTime Adjust(this DateTime dt, IEnumerable<IInterval> intervals)
+        public static DateTime Adjust(this DateTime dt, IEnumerable<IInterval> intervals)
         {
             var adjusted = dt;
-            foreach(var interval in intervals.OrderBy(x => x.Unit))
+            foreach (var interval in intervals.OrderBy(x => x.Unit))
             {
                 adjusted = adjusted.Adjust(interval);
             }
@@ -32,7 +30,6 @@ namespace Vaxplan.Date
                     return dt.AddDays(interval.Value);
                 default:
                     return dt;
-
             }
         }
 
@@ -40,5 +37,5 @@ namespace Vaxplan.Date
         {
             return new DateTime(dt.Year, dt.Month, dt.Day, 0, 0, 0);
         }
-    }    
+    }
 }

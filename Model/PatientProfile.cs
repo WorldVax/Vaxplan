@@ -8,12 +8,12 @@ namespace Vaxplan.Model
 {
     public class PatientProfile
     {
-        public string Dob { get; set; }
+        public DateTime Dob { get; set; }
         public string Gender { get; set; }
         public string MedHistoryCode { get; set; }
         public string MedHistoryCodeSys { get; set; }
         public string MedHistoryText { get; set; }
-        public List<Series> Series { get; set; }
+        public List<Dose> Series { get; set; }
     }
 
 }

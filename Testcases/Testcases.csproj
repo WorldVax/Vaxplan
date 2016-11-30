@@ -7,7 +7,7 @@
     <ProjectGuid>{B7B31CA0-2AF7-441A-8968-02CBD12B6D4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vaxplan</RootNamespace>
+    <RootNamespace>Vaxplan.Testcases</RootNamespace>
     <AssemblyName>Vaxplan.Testcases</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

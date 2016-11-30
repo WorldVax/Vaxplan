@@ -65,8 +65,8 @@ namespace Vaxplan.UnitTests
         public void TestMethod1()
         {
             var series = CaseLibrary.Testcases["2013-0010"].PatientProfile.Series;
-            var a = series.Select(x => new Series { Cvx = x.Cvx, DateAdministered = x.DateAdministered, Mvx = x.Mvx, VaccineName = x.VaccineName });
-           // var b = AdministeredAntigenFactory.Prepare(a);
+            var a = series.Select(x => new Dose { Cvx = x.Cvx, DateAdministered = DateTime.Parse(x.DateAdministered), Mvx = x.Mvx, VaccineName = x.VaccineName });
+            // var b = AdministeredAntigenFactory.Prepare(a);
         }
     }
 }

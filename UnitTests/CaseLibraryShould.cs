@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Vaxplan.Testcases;
 
 namespace Vaxplan.UnitTests
 {

@@ -74,10 +74,6 @@
       <Project>{27d19638-69d0-47d4-845e-0cae7536ff30}</Project>
       <Name>Date</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DoseHistory\DoseHistory.csproj">
-      <Project>{7cd40dfb-c1c7-468e-bd59-452bfea32c42}</Project>
-      <Name>DoseHistory</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{df395d56-6bb1-40ef-8e40-4d6e9999cb3e}</Project>
       <Name>Model</Name>
@@ -85,6 +81,10 @@
     <ProjectReference Include="..\Refdata\Refdata.csproj">
       <Project>{9d2a56a8-6260-44ba-ac87-44c2aa692ac5}</Project>
       <Name>Refdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{305c9df8-a765-4d37-8f8d-6fdb28c3cc0e}</Project>
+      <Name>Services</Name>
     </ProjectReference>
     <ProjectReference Include="..\Testcases\Testcases.csproj">
       <Project>{b7b31ca0-2af7-441a-8968-02cbd12b6d4e}</Project>
