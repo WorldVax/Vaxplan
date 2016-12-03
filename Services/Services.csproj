@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministeredAntigenFactory.cs" />
-    <Compile Include="TransformExtensions.cs" />
+    <Compile Include="AdministeredDoseService.cs" />
+    <Compile Include="PatientSeriesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,10 +52,6 @@
     <ProjectReference Include="..\Refdata\Refdata.csproj">
       <Project>{9d2a56a8-6260-44ba-ac87-44c2aa692ac5}</Project>
       <Name>Refdata</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Testcases\Testcases.csproj">
-      <Project>{b7b31ca0-2af7-441a-8968-02cbd12b6d4e}</Project>
-      <Name>Testcases</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

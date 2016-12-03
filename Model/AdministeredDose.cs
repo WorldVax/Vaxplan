@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Vaxplan.Model
 {
-    public class Dose
+    public class AdministeredDose
     {
         public string Cvx { get; set; }
         public DateTime DateAdministered { get; set; }

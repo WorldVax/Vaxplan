@@ -13,7 +13,7 @@ namespace Vaxplan.Model
         public string MedHistoryCode { get; set; }
         public string MedHistoryCodeSys { get; set; }
         public string MedHistoryText { get; set; }
-        public List<Dose> Series { get; set; }
+        public List<AdministeredDose> Series { get; set; }
     }
 
 }

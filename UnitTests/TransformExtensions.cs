@@ -3,13 +3,13 @@ using System.Linq;
 using Vaxplan.Model;
 using Tests = Vaxplan.Testcases;
 
-namespace Vaxplan.Services
+namespace Vaxplan.UnitTests
 {
     public static class TransformExtensions
     {
-        public static Dose ToModel(this Tests.AdministeredDose entity)
+        public static AdministeredDose ToModel(this Tests.AdministeredDose entity)
         {
-            return new Dose
+            return new AdministeredDose
             {
                 Cvx = entity.Cvx,
                 DateAdministered = DateTime.Parse(entity.DateAdministered),

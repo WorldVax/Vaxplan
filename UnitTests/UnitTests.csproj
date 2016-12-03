@@ -59,7 +59,9 @@
     <Compile Include="DateShould.cs" />
     <Compile Include="RefdataShould.cs" />
     <Compile Include="EmbeddedResourceReaderShould.cs" />
-    <Compile Include="PrepareDataShould.cs" />
+    <Compile Include="AdministeredDoseServiceShould.cs" />
+    <Compile Include="TransformExtensions.cs" />
+    <Compile Include="PatientSeriesServiceShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
