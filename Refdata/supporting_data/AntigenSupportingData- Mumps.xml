@@ -1,165 +1,682 @@
 <antigenSupportingData>
-    <immunity>
-        <clinicalHistory>
-            <guideline>Laboratory Evidence of Immunity for Mumps</guideline>
-            <mapping>
-                <conceptCodeSystem>SNOMED-CT</conceptCodeSystem>
-                <conceptCode>371112003</conceptCode>
-                <conceptText>Mumps Immune (finding)</conceptText>
-            </mapping>
-        </clinicalHistory>
-        <dateOfBirth>
-            <immunityBirthDate>01/01/1957</immunityBirthDate>
-            <birthCountry/>
-            <exclusion>
-                <exclusionCondition>Healthcare Personnel</exclusionCondition>
-                <mapping>
-                    <conceptCodeSystem>SNOMED-CT</conceptCodeSystem>
-                    <conceptCode>223366009</conceptCode>
-                    <conceptText>Healthcare professional (occupation)</conceptText>
-                </mapping>
-            </exclusion>
-        </dateOfBirth>
-    </immunity>
-    <series>
-        <seriesName>Mumps Standard 2-dose Series</seriesName>
-        <targetDisease>Mumps</targetDisease>
-        <vaccineGroup>MMR</vaccineGroup>
-        <selectBest>
-            <defaultSeries>Yes</defaultSeries>
-            <productPath>No</productPath>
-            <seriesPreference>1</seriesPreference>
-            <minAgeToStart>n/a</minAgeToStart>
-            <maxAgeToStart>n/a</maxAgeToStart>
-        </selectBest>
-        <seriesDose>
-            <doseNumber>Dose 1</doseNumber>
-            <age>
-                <absMinAge>12 months - 4 days</absMinAge>
-                <minAge>12 months</minAge>
-                <earliestRecAge>12 months</earliestRecAge>
-                <latestRecAge>16 months + 4 weeks</latestRecAge>
-                <maxAge/>
-            </age>
-            <interval/>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>MMR</vaccineType>
-                <cvx>03</cvx>
-                <beginAge>12 Months</beginAge>
-                <endAge/>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>MMRV</vaccineType>
-                <cvx>94</cvx>
-                <beginAge>12 Months</beginAge>
-                <endAge>13 years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>MMR</vaccineType>
-                <cvx>03</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>Mumps</vaccineType>
-                <cvx>07</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>Rubella/Mumps</vaccineType>
-                <cvx>38</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>MMRV</vaccineType>
-                <cvx>94</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender/>
-        </seriesDose>
-        <seriesDose>
-            <doseNumber>Dose 2</doseNumber>
-            <age>
-                <absMinAge>13 months - 4 days</absMinAge>
-                <minAge>13 months</minAge>
-                <earliestRecAge>4 years</earliestRecAge>
-                <latestRecAge>7 years + 4 weeks</latestRecAge>
-                <maxAge/>
-            </age>
-            <interval>
-                <fromPrevious>Y</fromPrevious>
-                <fromTargetDose/>
-                <fromMostRecent/>
-                <absMinInt>4 weeks - 4 days</absMinInt>
-                <minInt>4 weeks</minInt>
-                <earliestRecInt>3 years</earliestRecInt>
-                <latestRecInt>6 years + 4 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>MMR</vaccineType>
-                <cvx>03</cvx>
-                <beginAge>12 Months</beginAge>
-                <endAge/>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>MMRV</vaccineType>
-                <cvx>94</cvx>
-                <beginAge>12 Months</beginAge>
-                <endAge>13 years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>MMR</vaccineType>
-                <cvx>03</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>Mumps</vaccineType>
-                <cvx>07</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>Rubella/Mumps</vaccineType>
-                <cvx>38</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>MMRV</vaccineType>
-                <cvx>94</cvx>
-                <beginAge>12 Months - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender/>
-        </seriesDose>
-    </series>
+<immunity>
+<clinicalHistory>
+<guidelineCode>021</guidelineCode>
+<guidelineTitle>Laboratory Evidence of Immunity for Mumps</guidelineTitle>
+</clinicalHistory>
+<dateOfBirth>
+<immunityBirthDate>01/01/1957</immunityBirthDate>
+<birthCountry/>
+<exclusion>
+<exclusionCode>055</exclusionCode>
+<exclusionTitle>Health care personnel</exclusionTitle>
+</exclusion>
+</dateOfBirth>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>007</observationCode>
+<observationTitle>Pregnant</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is pregnant.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>031</observationCode>
+<observationTitle>Tuberculosis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has active untreated tuberculosis.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>092</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Mumps</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Mumps vaccine.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>102</observationCode>
+<observationTitle>Severe allergic reaction to gelatin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to gelatin.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>125</observationCode>
+<observationTitle>Tetanus IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Tetanus IG administered in the previous 3 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>126</observationCode>
+<observationTitle>Hep A IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Hepatitis A IG administered in the previous 3 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>127</observationCode>
+<observationTitle>Hep B IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Hepatitis B IG administered in the previous 3 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>128</observationCode>
+<observationTitle>Rabies IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Rabies IG administered in the previous 4 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>129</observationCode>
+<observationTitle>Varicella IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Varicella IG administered in the previous 5 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>130</observationCode>
+<observationTitle>Measles prophylaxis IG administration - Standard</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Measles IG at a standard dose (0.25 mL/kg) administered in the previous 5 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>131</observationCode>
+<observationTitle>Measles prophylaxis IG administration - Immunocompromised Contact</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Measles IG at an immunocompromised dose (0.5 mL/kg) administered in the previous 6 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>132</observationCode>
+<observationTitle>RBC [adenine-saline added] blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of adenine-saline added RBCs in the previous 3 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>133</observationCode>
+<observationTitle>Packed RBC blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of packed RBCs in the previous 6 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>134</observationCode>
+<observationTitle>Whole blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a whole blood transfusion in the previous 6 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>135</observationCode>
+<observationTitle>Plasma/platelet products blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of plasma or platelet product in the previous 7 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>136</observationCode>
+<observationTitle>Cytomegalovirus IGIV</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received Cytomegalovirus IGIV in the previous 6 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>137</observationCode>
+<observationTitle>IGIV - Replacement therapy for immune deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Replacement therapy for immune deficiencies) in the previous 8 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>138</observationCode>
+<observationTitle>IGIV - Immune thrombocytopenic purpura treatment</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Immune thrombocytopenic purpura treatment (400 mg/kg IV)) in the previous 8 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>139</observationCode>
+<observationTitle>IGIV - Postexposure varicella prophylaxis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Postexposure varicella prophylaxis) in the previous 8 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>140</observationCode>
+<observationTitle>IGIV - Immune thrombocytopenic purpura treatment</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Immune thrombocytopenic purpura treatment (1000 mg/kg IV)) in the previous 10 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>141</observationCode>
+<observationTitle>IGIV - Kawasaki disease</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Kawasaki disease) in the previous 11 months.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>153</observationCode>
+<observationTitle>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>154</observationCode>
+<observationTitle>HIV/AIDS - severely immunocompromised</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has generalized malignant neoplasm.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate if the patient received a transplant.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing radiation therapy.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Mumps 2-dose series</seriesName>
+<targetDisease>Mumps</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>3</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>16 months + 4 weeks</latestRecAge>
+<maxAge/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months</beginAge>
+<endAge>13 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Mumps</vaccineType>
+<cvx>07</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rubella/Mumps</vaccineType>
+<cvx>38</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>13 months - 4 days</absMinAge>
+<minAge>13 months</minAge>
+<earliestRecAge>4 years</earliestRecAge>
+<latestRecAge>7 years + 4 weeks</latestRecAge>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months</beginAge>
+<endAge>13 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Mumps</vaccineType>
+<cvx>07</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rubella/Mumps</vaccineType>
+<cvx>38</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required for those 19 year or older</setDescription>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge> 19 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Mumps risk 1-dose series</seriesName>
+<targetDisease>Mumps</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance>Children who received MMR vaccine before age 12 months should be considered potentially susceptible to all three diseases and should be revaccinated with 2 doses of MMR vaccine, the first dose administered when the child is aged 12 through 15 months (12 months if the child remains in an area where disease risk is high) and the second dose at least 28 days later.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk Infant</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>12 months</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Travelling Internationally</text>
+<code>048</code>
+</observationCode>
+<description>Administer to persons who will be travelling internationally.</description>
+<beginAge>6 months</beginAge>
+<endAge>12 months</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 months - 4 days</absMinAge>
+<minAge>6 months</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>12 months</latestRecAge>
+<maxAge>12 months</maxAge>
+</age>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>6 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Mumps</vaccineType>
+<cvx>07</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rubella/Mumps</vaccineType>
+<cvx>38</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Mumps risk 2-dose series</seriesName>
+<targetDisease>Mumps</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART]</text>
+<code>026</code>
+</observationCode>
+<description>Administer to persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART].</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travelling Internationally</text>
+<code>048</code>
+</observationCode>
+<description>Administer to persons who will be travelling internationally.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel without evidence of immunity.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance>Includes those born before 1957 who would normally be considered immunity.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Post secondary student</text>
+<code>063</code>
+</observationCode>
+<description>Administer to persons who are students in a postsecondary educational institution.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Received killed or unknown Mumps vaccine before 1979</text>
+<code>078</code>
+</observationCode>
+<description>Administer to persons who received killed or unknown Mumps vaccine before 1979.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS but are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Mumps</vaccineType>
+<cvx>07</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rubella/Mumps</vaccineType>
+<cvx>38</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Mumps</vaccineType>
+<cvx>07</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rubella/Mumps</vaccineType>
+<cvx>38</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
 </antigenSupportingData>

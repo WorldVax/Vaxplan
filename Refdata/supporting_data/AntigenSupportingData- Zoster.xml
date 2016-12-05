@@ -1,86 +1,198 @@
 <antigenSupportingData>
-	<immunity>
-	</immunity>
-	<series>
-		<seriesName>Zoster Standard Series</seriesName>
-		<targetDisease>Zoster</targetDisease>
-		<vaccineGroup>Zoster </vaccineGroup>
-		<selectBest>
-			<defaultSeries>Yes</defaultSeries>
-			<productPath>No</productPath>
-			<seriesPreference>1</seriesPreference>
-			<minAgeToStart>n/a</minAgeToStart>
-			<maxAgeToStart>n/a</maxAgeToStart>
-		</selectBest>
-		<seriesDose>
-			<doseNumber>Dose 1</doseNumber>
-			<age>
-				<absMinAge>50 Years</absMinAge>
-				<minAge>60 Years</minAge>
-				<earliestRecAge>60 Years</earliestRecAge>
-				<latestRecAge/>
-				<maxAge/>
-			</age>
-			<interval/>
-			<allowableInterval/>
-			<preferableVaccine>
-				<vaccineType>ZOSTAVAX</vaccineType>
-				<cvx>121</cvx>
-				<beginAge>50 years</beginAge>
-				<endAge/>
-				<tradeName/>
-				<mvx/>
-				<volume>0.65</volume>
-				<forecastVaccineType>N</forecastVaccineType>
-			</preferableVaccine>
-			<allowableVaccine>
-				<vaccineType>ZOSTAVAX</vaccineType>
-				<cvx>121</cvx>
-				<beginAge>50 years</beginAge>
-				<endAge/>
-			</allowableVaccine>
-			<conditionalSkip>
-				<setLogic>OR</setLogic>
-				<set>
-					<setID>1</setID>
-					<setDescription>Dose is not required if the patient has received 1 or more doses of Zoster between the ages of 12 months and 50 years</setDescription>
-					<conditionLogic/>
-					<condition>
-						<conditionID>1</conditionID>
-						<conditionType>Vaccine Count by Age</conditionType>
-						<startDate/>
-						<endDate/>
-						<beginAge>12 months - 4 days</beginAge>
-						<endAge>50 years</endAge>
-						<interval/>
-						<doseCount>0</doseCount>
-						<doseType>Total</doseType>
-						<doseCountLogic>greater than</doseCountLogic>
-						<vaccineTypes>121</vaccineTypes>
-					</condition>
-				</set>
-				<set>
-					<setID>2</setID>
-					<setDescription>Dose is not required if the patient has received 1 or more doses of Varicella after the age of 12 months</setDescription>
-					<conditionLogic/>
-					<condition>
-						<conditionID>1</conditionID>
-						<conditionType>Vaccine Count by Age</conditionType>
-						<startDate/>
-						<endDate/>
-						<beginAge>12 months - 4 days</beginAge>
-						<endAge/>
-						<interval/>
-						<doseCount>0</doseCount>
-						<doseType>Total</doseType>
-						<doseCountLogic>greater than</doseCountLogic>
-						<vaccineTypes>21;94</vaccineTypes>
-					</condition>
-				</set>
-			</conditionalSkip>
-			<recurringDose>No</recurringDose>
-			<seasonalRecommendation/>
-			<requiredGender/>
-		</seriesDose>
-	</series>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>007</observationCode>
+<observationTitle>Pregnant</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is pregnant.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>089</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Varicella</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>100</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Zoster</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Zoster vaccine.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>102</observationCode>
+<observationTitle>Severe allergic reaction to gelatin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to gelatin.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>153</observationCode>
+<observationTitle>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has generalized malignant neoplasm.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate if the patient received a transplant.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing radiation therapy.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Zoster 1-dose series</seriesName>
+<targetDisease>Zoster</targetDisease>
+<vaccineGroup>Zoster </vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>50 years</absMinAge>
+<minAge>60 years</minAge>
+<earliestRecAge>60 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster , ZOS</vaccineType>
+<cvx>121</cvx>
+<beginAge>60 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.65</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster , ZOS</vaccineType>
+<cvx>121</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of Zoster between the ages of 12 months and 50 years</setDescription>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>50 years</endAge>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>121</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of Varicella after the age of 12 months</setDescription>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>21;94</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
 </antigenSupportingData>

@@ -62,6 +62,7 @@
     <Compile Include="AdministeredDoseServiceShould.cs" />
     <Compile Include="TransformExtensions.cs" />
     <Compile Include="PatientSeriesServiceShould.cs" />
+    <Compile Include="XmlResourceReaderShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

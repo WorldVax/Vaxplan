@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -7,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace Vaxplan.Common.IO
 {
-    public abstract class EmbeddedResourceReader : IEmbeddedResourceReader
+    public class EmbeddedResourceReader : IEmbeddedResourceReader
     {
         public Assembly TypeContainer { get; set; }
 
@@ -18,7 +19,7 @@ namespace Vaxplan.Common.IO
         {
             TypeContainer = Assembly.GetAssembly(type);
         }
-        
+
         public EmbeddedResourceReader(Assembly assembly)
         {
             TypeContainer = assembly;
@@ -46,6 +47,9 @@ namespace Vaxplan.Common.IO
             return new StreamReader(TypeContainer.GetManifestResourceStream(name));
         }
 
-        public abstract T Read<T>(string pattern);
+        public virtual T Read<T>(string pattern)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

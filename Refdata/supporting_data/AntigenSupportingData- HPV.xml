@@ -1,458 +1,1439 @@
 <antigenSupportingData>
-    <immunity></immunity>
-    <series>
-        <seriesName>HPV Female 3 Dose</seriesName>
-        <targetDisease>HPV</targetDisease>
-        <vaccineGroup>HPV</vaccineGroup>
-        <selectBest>
-            <defaultSeries>No</defaultSeries>
-            <productPath>No</productPath>
-            <seriesPreference>n/a</seriesPreference>
-            <minAgeToStart>n/a</minAgeToStart>
-            <maxAgeToStart>n/a</maxAgeToStart>
-        </selectBest>
-        <seriesDose>
-            <doseNumber>Dose 1</doseNumber>
-            <age>
-                <absMinAge>9 years - 4 days</absMinAge>
-                <minAge>9 years</minAge>
-                <earliestRecAge>11 years</earliestRecAge>
-                <latestRecAge>13 years + 4 weeks</latestRecAge>
-                <maxAge>27 years</maxAge>
-            </age>
-            <interval/>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>26 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Female</requiredGender>
-            <requiredGender>Unknown</requiredGender>
-        </seriesDose>
-        <seriesDose>
-            <doseNumber>Dose 2</doseNumber>
-            <age>
-                <absMinAge/>
-                <minAge/>
-                <earliestRecAge/>
-                <latestRecAge/>
-                <maxAge/>
-            </age>
-            <interval>
-                <fromPrevious>Y</fromPrevious>
-                <fromTargetDose/>
-                <fromMostRecent/>
-                <absMinInt>4 weeks - 4 days</absMinInt>
-                <minInt>4 weeks</minInt>
-                <earliestRecInt>8 weeks</earliestRecInt>
-                <latestRecInt>16 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>26 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Female</requiredGender>
-            <requiredGender>Unknown</requiredGender>
-        </seriesDose>
-        <seriesDose>
-            <doseNumber>Dose 3</doseNumber>
-            <age>
-                <absMinAge/>
-                <minAge/>
-                <earliestRecAge/>
-                <latestRecAge/>
-                <maxAge/>
-            </age>
-            <interval>
-                <fromPrevious>N</fromPrevious>
-                <fromTargetDose>1</fromTargetDose>
-                <fromMostRecent/>
-                <absMinInt>16 weeks</absMinInt>
-                <minInt>24 weeks</minInt>
-                <earliestRecInt>24 weeks</earliestRecInt>
-                <latestRecInt>29 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <interval>
-                <fromPrevious>Y</fromPrevious>
-                <fromTargetDose/>
-                <fromMostRecent/>
-                <absMinInt>12 weeks - 4 days</absMinInt>
-                <minInt>12 weeks</minInt>
-                <earliestRecInt>4 months</earliestRecInt>
-                <latestRecInt>5 months + 4 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>26 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV2</vaccineType>
-                <cvx>118</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Female</requiredGender>
-            <requiredGender>Unknown</requiredGender>
-        </seriesDose>
-    </series>
-    <series>
-        <seriesName>HPV Male 3 Dose</seriesName>
-        <targetDisease>HPV</targetDisease>
-        <vaccineGroup>HPV</vaccineGroup>
-        <selectBest>
-            <defaultSeries>No</defaultSeries>
-            <productPath>No</productPath>
-            <seriesPreference>n/a</seriesPreference>
-            <minAgeToStart>n/a</minAgeToStart>
-            <maxAgeToStart>n/a</maxAgeToStart>
-        </selectBest>
-        <seriesDose>
-            <doseNumber>Dose 1</doseNumber>
-            <age>
-                <absMinAge>9 years - 4 days</absMinAge>
-                <minAge>9 years</minAge>
-                <earliestRecAge>11 years</earliestRecAge>
-                <latestRecAge>13 years + 4 weeks</latestRecAge>
-                <maxAge>27 years</maxAge>
-            </age>
-            <interval/>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Male</requiredGender>
-        </seriesDose>
-        <seriesDose>
-            <doseNumber>Dose 2</doseNumber>
-            <age>
-                <absMinAge/>
-                <minAge/>
-                <earliestRecAge/>
-                <latestRecAge/>
-                <maxAge/>
-            </age>
-            <interval>
-                <fromPrevious>Y</fromPrevious>
-                <fromTargetDose/>
-                <fromMostRecent/>
-                <absMinInt>4 weeks - 4 days</absMinInt>
-                <minInt>4 weeks</minInt>
-                <earliestRecInt>8 weeks</earliestRecInt>
-                <latestRecInt>16 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Male</requiredGender>
-        </seriesDose>
-        <seriesDose>
-            <doseNumber>Dose 3</doseNumber>
-            <age>
-                <absMinAge/>
-                <minAge/>
-                <earliestRecAge/>
-                <latestRecAge/>
-                <maxAge/>
-            </age>
-            <interval>
-                <fromPrevious>N</fromPrevious>
-                <fromTargetDose>1</fromTargetDose>
-                <fromMostRecent/>
-                <absMinInt>16 weeks</absMinInt>
-                <minInt>24 weeks</minInt>
-                <earliestRecInt>24 weeks</earliestRecInt>
-                <latestRecInt>29 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <interval>
-                <fromPrevious>Y</fromPrevious>
-                <fromTargetDose/>
-                <fromMostRecent/>
-                <absMinInt>12 weeks - 4 days</absMinInt>
-                <minInt>12 weeks</minInt>
-                <earliestRecInt>4 months</earliestRecInt>
-                <latestRecInt>5 months + 4 weeks</latestRecInt>
-                <intervalPriority/>
-            </interval>
-            <allowableInterval/>
-            <preferableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>Y</forecastVaccineType>
-            </preferableVaccine>
-            <preferableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years</beginAge>
-                <endAge>27 Years</endAge>
-                <tradeName/>
-                <mvx/>
-                <volume>0.5</volume>
-                <forecastVaccineType>N</forecastVaccineType>
-            </preferableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV4</vaccineType>
-                <cvx>62</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV Unspecified</vaccineType>
-                <cvx>137</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <allowableVaccine>
-                <vaccineType>HPV9</vaccineType>
-                <cvx>165</cvx>
-                <beginAge>9 Years - 4 days</beginAge>
-                <endAge/>
-            </allowableVaccine>
-            <conditionalSkip/>
-            <recurringDose>No</recurringDose>
-            <seasonalRecommendation/>
-            <requiredGender>Male</requiredGender>
-        </seriesDose>
-    </series>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>090</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of HPV</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of HPV vaccine.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>104</observationCode>
+<observationTitle>Allergic reaction to latex</observationTitle>
+<contraindicationText>Do not vaccinate with 2vHPV if the patient has an allergy to latex.</contraindicationText>
+<contraindicatedVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>110</observationCode>
+<observationTitle>Hypersensitivity to yeast</observationTitle>
+<contraindicationText>Do not vaccinate with 4vHPV if the patient has a hypersensitivity to yeast.</contraindicationText>
+<contraindicatedVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+<contraindicatedVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>HPV female 3-dose series</seriesName>
+<targetDisease>HPV</targetDisease>
+<vaccineGroup>HPV</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender>Female</requiredGender>
+<requiredGender>Unknown</requiredGender>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>9 years - 4 days</absMinAge>
+<minAge>9 years</minAge>
+<earliestRecAge>11 years</earliestRecAge>
+<latestRecAge>13 years + 4 weeks</latestRecAge>
+<maxAge>27 years</maxAge>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>16 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks</absMinInt>
+<minInt>24 weeks</minInt>
+<earliestRecInt>24 weeks</earliestRecInt>
+<latestRecInt>29 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HPV male 3-dose series</seriesName>
+<targetDisease>HPV</targetDisease>
+<vaccineGroup>HPV</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender>Male</requiredGender>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>9 years - 4 days</absMinAge>
+<minAge>9 years</minAge>
+<earliestRecAge>11 years</earliestRecAge>
+<latestRecAge>13 years + 4 weeks</latestRecAge>
+<maxAge>22 years</maxAge>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>16 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks</absMinInt>
+<minInt>24 weeks</minInt>
+<earliestRecInt>24 weeks</earliestRecInt>
+<latestRecInt>29 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HPV risk female 3-dose series</seriesName>
+<targetDisease>HPV</targetDisease>
+<vaccineGroup>HPV</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender>Female</requiredGender>
+<requiredGender>Unknown</requiredGender>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>11 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>History of sexual abuse or assault</text>
+<code>169</code>
+</observationCode>
+<description>Administer to persons who have a history of sexual abuse or assault.</description>
+<beginAge>9 years</beginAge>
+<endAge>11 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>9 years - 4 days</absMinAge>
+<minAge>9 years</minAge>
+<earliestRecAge>9 years</earliestRecAge>
+<latestRecAge>11 years</latestRecAge>
+<maxAge>27 years</maxAge>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>16 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks</absMinInt>
+<minInt>24 weeks</minInt>
+<earliestRecInt>24 weeks</earliestRecInt>
+<latestRecInt>29 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HPV risk male 3-dose series</seriesName>
+<targetDisease>HPV</targetDisease>
+<vaccineGroup>HPV</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender>Male</requiredGender>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>11 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>History of sexual abuse or assault</text>
+<code>169</code>
+</observationCode>
+<description>Administer to persons who have a history of sexual abuse or assault.</description>
+<beginAge>9 years</beginAge>
+<endAge>11 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>9 years - 4 days</absMinAge>
+<minAge>9 years</minAge>
+<earliestRecAge>9 years</earliestRecAge>
+<latestRecAge>11 years</latestRecAge>
+<maxAge>22 years</maxAge>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>16 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks</absMinInt>
+<minInt>24 weeks</minInt>
+<earliestRecInt>24 weeks</earliestRecInt>
+<latestRecInt>29 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HPV risk adult male 3-dose series</seriesName>
+<targetDisease>HPV</targetDisease>
+<vaccineGroup>HPV</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender>Male</requiredGender>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>27 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies</text>
+<code>149</code>
+</observationCode>
+<description>Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</text>
+<code>150</code>
+</observationCode>
+<description>Administer to persons who have T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, including inherited or chronic deficiencies in C3, C5-9, properdin, factor D, factor H, or who are taking eculizumab [Soliris].</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Chronic granulomatous disease</text>
+<code>152</code>
+</observationCode>
+<description>Administer to persons who have chronic granulomatous disease.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic renal disease</text>
+<code>161</code>
+</observationCode>
+<description>Administer to persons with chronic renal disease.</description>
+<beginAge>22 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>9 years - 4 days</absMinAge>
+<minAge>9 years</minAge>
+<earliestRecAge>11 years</earliestRecAge>
+<latestRecAge>13 years + 4 weeks</latestRecAge>
+<maxAge>27 years</maxAge>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>16 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks</absMinInt>
+<minInt>24 weeks</minInt>
+<earliestRecInt>24 weeks</earliestRecInt>
+<latestRecInt>29 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years</beginAge>
+<endAge>27 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>4vHPV</vaccineType>
+<cvx>62</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HPV Unspecified</vaccineType>
+<cvx>137</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>9vHPV</vaccineType>
+<cvx>165</cvx>
+<beginAge>9 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>2vHPV</vaccineType>
+<cvx>118</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
 </antigenSupportingData>

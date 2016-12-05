@@ -71,22 +71,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Refdata.cs" />
-    <Compile Include="scheduleSupportingData.cs" />
+    <Compile Include="scheduleSupportingData.cs">
+      <SubType>code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Diphtheria.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- HepA.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- HepB.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Hib.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- HPV.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Influenza.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- MCV.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Measles.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Mumps.xml" />
     <EmbeddedResource Include="supporting_data\AntigenSupportingData- Pertussis.xml" />
@@ -101,12 +100,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="supporting_data\AntigenSupportingData.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="supporting_data\ScheduleSupportingData.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{21b38d12-92b3-4f52-80b6-3c2655c8b285}</Project>
       <Name>Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- JE.xml" />
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Meningococcal B.xml" />
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Meningococcal.xml" />
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Rabies.xml" />
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Typhoid.xml" />
+    <EmbeddedResource Include="supporting_data\AntigenSupportingData- YF.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

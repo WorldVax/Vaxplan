@@ -1,19 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using Vaxplan.Common.Collections;
 using Vaxplan.Common.IO;
+using Vaxplan.SupportingData.Antigens;
+using Vaxplan.SupportingData.Schedule;
 
 namespace Vaxplan
 {
     public static class Refdata
     {
-        private static Lazy<scheduleSupportingData> _scheduleSupportingData;
+        private static readonly Lazy<scheduleSupportingData> _scheduleSupportingData;
         public static IDictionary<string, antigenSupportingData> Antigens { get; private set; }
+        public static IList<string> AntigenNames { get; private set; }
         static Refdata()
         {
             _scheduleSupportingData = new Lazy<scheduleSupportingData>(() => GetEmbeddedResource<scheduleSupportingData>("ScheduleSupportingData"));
-            Antigens = new LazyDictionary<string, antigenSupportingData>(key => GetEmbeddedResource<antigenSupportingData>(key));
+            Antigens = new LazyDictionary<string, antigenSupportingData>(GetEmbeddedResource<antigenSupportingData>);
+
+            var reader = new EmbeddedResourceReader(typeof(antigenSupportingData));
+            var names = reader.GetMatchingResourceNames(new Regex("AntigenSupportingData"));
+            var re = new Regex(@"AntigenSupportingData- (?<antigen>\w*)\.xml");
+            AntigenNames = names.Select(x => re.Match(x).Groups["antigen"].Value).ToList();
         }
 
         public static IEnumerable<string> CvxToAntigen(string cvx)
@@ -38,13 +47,6 @@ namespace Vaxplan
             return _scheduleSupportingData.Value
                 .vaccineGroups
                 .FirstOrDefault(x => x.name == name);
-        }
-
-        public static IEnumerable<scheduleSupportingDataContraindication> GetContraindications(string antigen)
-        {
-            return _scheduleSupportingData.Value
-                .contraindications
-                .Where(x => x.antigen == antigen);
         }
 
         public static IEnumerable<scheduleSupportingDataLiveVirusConflict> GetLiveVirusConflicts(string cvx)

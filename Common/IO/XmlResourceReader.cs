@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
@@ -13,6 +12,7 @@ namespace Vaxplan.Common.IO
         public XmlResourceReader(Type type) : base(type)
         {
         }
+
         public XmlResourceReader(Assembly assembly) : base(assembly)
         {
         }
