@@ -63,7 +63,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="antigenSupportingData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -71,39 +70,38 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Refdata.cs" />
-    <Compile Include="scheduleSupportingData.cs">
-      <SubType>code</SubType>
-    </Compile>
+    <Compile Include="SupportingData\AntigenSupportingData.cs" />
+    <Compile Include="SupportingData\ScheduleSupportingData.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Diphtheria.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- HepA.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- HepB.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Hib.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- HPV.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Influenza.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Measles.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Mumps.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Pertussis.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Pneumococcal.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Polio.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Rotavirus.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Rubella.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Tetanus.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Varicella.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Zoster.xml" />
-    <EmbeddedResource Include="supporting_data\ScheduleSupportingData.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Diphtheria.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- HepA.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- HepB.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Hib.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- HPV.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Influenza.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Measles.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Mumps.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Pertussis.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Pneumococcal.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Polio.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Rotavirus.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Rubella.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Tetanus.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Varicella.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Zoster.xml" />
+    <EmbeddedResource Include="Resources\ScheduleSupportingData.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="supporting_data\AntigenSupportingData.xsd">
+    <None Include="Resources\AntigenSupportingData.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="supporting_data\ScheduleSupportingData.xsd">
+    <None Include="Resources\ScheduleSupportingData.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -114,13 +112,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- JE.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Meningococcal B.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Meningococcal.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Rabies.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- Typhoid.xml" />
-    <EmbeddedResource Include="supporting_data\AntigenSupportingData- YF.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- JE.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Meningococcal B.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Meningococcal.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Rabies.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- Typhoid.xml" />
+    <EmbeddedResource Include="Resources\AntigenSupportingData- YF.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

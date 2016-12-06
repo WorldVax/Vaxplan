@@ -10,7 +10,7 @@ namespace Vaxplan.Services
         public static IEnumerable<AdministeredAntigen> Prepare(IEnumerable<AdministeredDose> administered)
         {
             return from dose in administered
-                   let antigens = Refdata.CvxToAntigen(dose.Cvx)
+                   let antigens = Refdata.AntigensByCvx[dose.Cvx]
                    from antigen in antigens
                    select new AdministeredAntigen
                    {

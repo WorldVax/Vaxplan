@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
-using Vaxplan.SupportingData.Antigens;
+using Refdata.SupportingData;
 
 namespace Vaxplan.UnitTests
 {
@@ -18,7 +18,7 @@ namespace Vaxplan.UnitTests
         [TestMethod]
         public void GetAntigens()
         {
-            var data = Refdata.CvxToAntigen("MMR");
+            var data = Refdata.AntigensByCvx["MMR"];
             Assert.IsInstanceOfType(data, typeof(IEnumerable<string>));
         }
 
@@ -28,6 +28,12 @@ namespace Vaxplan.UnitTests
             var names = Refdata.AntigenNames.ToList();
             Assert.IsTrue(names.Any());
             Assert.IsTrue(names.Contains("Diphtheria"));
+        }
+
+        [TestMethod]
+        public void ReadSupportingDataResource()
+        {
+            var data = Refdata.SupportingData;
         }
     }
 }

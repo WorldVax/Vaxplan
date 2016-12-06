@@ -1,8 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Refdata.SupportingData;
 using Vaxplan.Common.IO;
-using Vaxplan.SupportingData.Antigens;
-using Vaxplan.SupportingData.Schedule;
 
 namespace Vaxplan.UnitTests
 {
