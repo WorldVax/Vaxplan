@@ -403,7 +403,7 @@ namespace Refdata.SupportingData {
         
         private string clarifyingTextField;
         
-        private scheduleSupportingDataObservationCodedValuesCodedValue[][] codedValuesField;
+        private scheduleSupportingDataObservationCodedValuesCodedValue[] codedValuesField;
         
         /// <remarks/>
         public string observationCode {
@@ -466,8 +466,8 @@ namespace Refdata.SupportingData {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlArrayItemAttribute("codedValue", typeof(scheduleSupportingDataObservationCodedValuesCodedValue), IsNullable=false)]
-        public scheduleSupportingDataObservationCodedValuesCodedValue[][] codedValues {
+        [System.Xml.Serialization.XmlArrayItemAttribute("codedValue", typeof(scheduleSupportingDataObservationCodedValuesCodedValue), IsNullable=true)]
+        public scheduleSupportingDataObservationCodedValuesCodedValue[] codedValues {
             get {
                 return this.codedValuesField;
             }

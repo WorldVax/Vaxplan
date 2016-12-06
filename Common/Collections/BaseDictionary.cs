@@ -12,108 +12,84 @@ namespace Vaxplan.Common.Collections
     /// </summary>
     /// <typeparam name="TKey"></typeparam>
     /// <typeparam name="TValue"></typeparam>
-    public  class BaseDictionary<TKey, TValue> : IDictionary<TKey, TValue>
+    public class BaseDictionary<TKey, TValue> : IDictionary<TKey, TValue>
     {
-        private IDictionary<TKey, TValue> target = new Dictionary<TKey, TValue>();
-        
-        public  virtual TValue this[TKey key]
+        protected readonly IDictionary<TKey, TValue> Target = new Dictionary<TKey, TValue>();
+
+        public virtual TValue this[TKey key]
         {
             get
             {
-                return target[key];
+                return Target[key];
             }
 
             set
             {
-                target[key] = value;
+                Target[key] = value;
             }
         }
 
-        public  virtual int Count
+        public virtual int Count => Target.Count;
+
+        public virtual bool IsReadOnly => Target.IsReadOnly;
+
+        public virtual ICollection<TKey> Keys => Target.Keys;
+
+        public virtual ICollection<TValue> Values => Target.Values;
+
+        public virtual void Add(KeyValuePair<TKey, TValue> item)
         {
-            get
-            {
-                return target.Count;
-            }
+            Target.Add(item);
         }
 
-        public  virtual bool IsReadOnly
+        public virtual void Add(TKey key, TValue value)
         {
-            get
-            {
-                return target.IsReadOnly;
-            }
+            Target.Add(key, value);
         }
 
-        public  virtual ICollection<TKey> Keys
+        public virtual void Clear()
         {
-            get
-            {
-                return target.Keys;
-            }
+            Target.Clear();
         }
 
-        public  virtual ICollection<TValue> Values
+        public virtual bool Contains(KeyValuePair<TKey, TValue> item)
         {
-            get
-            {
-                return target.Values;
-            }
+            return Target.Contains(item);
         }
 
-        public  virtual void Add(KeyValuePair<TKey, TValue> item)
+        public virtual bool ContainsKey(TKey key)
         {
-            target.Add(item);
+            return Target.ContainsKey(key);
         }
 
-        public  virtual void Add(TKey key, TValue value)
+        public virtual void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
         {
-            target.Add(key, value);
+            Target.CopyTo(array, arrayIndex);
         }
 
-        public  virtual void Clear()
+        public virtual IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
         {
-            target.Clear();
+            return Target.GetEnumerator();
         }
 
-        public  virtual bool Contains(KeyValuePair<TKey, TValue> item)
+        public virtual bool Remove(KeyValuePair<TKey, TValue> item)
         {
-          return  target.Contains(item);
+            return Target.Remove(item);
         }
 
-        public  virtual bool ContainsKey(TKey key)
+        public virtual bool Remove(TKey key)
         {
-            return target.ContainsKey(key);
+            return Target.Remove(key);
         }
 
-        public  virtual void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
+        public virtual bool TryGetValue(TKey key, out TValue value)
         {
-            target.CopyTo(array, arrayIndex);
-        }
-
-        public  virtual IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
-        {
-            return target.GetEnumerator();
-        }
-
-        public  virtual bool Remove(KeyValuePair<TKey, TValue> item)
-        {
-            return target.Remove(item);
-        }
-
-        public  virtual bool Remove(TKey key)
-        {
-            return target.Remove(key);
-        }
-
-        public  virtual bool TryGetValue(TKey key, out TValue value)
-        {
-            return target.TryGetValue(key, out value);
+            return Target.TryGetValue(key, out value);
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return target.GetEnumerator();
+            return Target.GetEnumerator();
         }
     }
 }

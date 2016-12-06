@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Refdata.SupportingData;
 
 namespace Vaxplan.UnitTests
@@ -18,22 +19,15 @@ namespace Vaxplan.UnitTests
         [TestMethod]
         public void GetAntigens()
         {
-            var data = Refdata.AntigensByCvx["MMR"];
+            var data = Refdata.AntigensByCvx["05"];
             Assert.IsInstanceOfType(data, typeof(IEnumerable<string>));
         }
 
         [TestMethod]
-        public void GetAntigenNames()
+        public void GetLiveVirusConflicts()
         {
-            var names = Refdata.AntigenNames.ToList();
-            Assert.IsTrue(names.Any());
-            Assert.IsTrue(names.Contains("Diphtheria"));
-        }
-
-        [TestMethod]
-        public void ReadSupportingDataResource()
-        {
-            var data = Refdata.SupportingData;
+            var data = Refdata.ConflictsByCvx["03"];
+            Assert.IsTrue(data.Count() == 17);
         }
     }
 }

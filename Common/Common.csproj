@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Collections\BaseDictionary.cs" />
     <Compile Include="Collections\LazyDictionary.cs" />
+    <Compile Include="Collections\MultiValueDictionary.cs" />
     <Compile Include="IO\IEmbeddedResourceReader.cs" />
     <Compile Include="IO\EmbeddedResourceReader.cs" />
     <Compile Include="IO\JsonResourceReader.cs" />
